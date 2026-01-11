@@ -6,5 +6,5 @@ class Solution:
                 return total
             
             return dfs(i + 1, total ^ nums[i]) + dfs(i + 1, total) #recursive call
-                    #includes nums[i]             #not includes nums[i]
+
         return dfs(0, 0) 
