@@ -12,4 +12,4 @@ class Solution:
                 l += 1 #if left is smaller move left pointer
             else:
                 r -= 1 #if right is smaller move right pointer
-        return res
+        return res #returning the max area
