@@ -16,3 +16,5 @@ class Solution:
             else:
                 stack.append(int(c))
         return stack[0]
+    
+    #always use int(float()) to avoid negative number division issue in python, otherwise it will round towards negative infinity instead of zero.
