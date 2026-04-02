@@ -25,7 +25,7 @@ class Solution:
             else:
                 return True
         return False 
-    
+        #Brute force approach
         '''for r in range(len(matrix)):
             for c in range(len(matrix[0])):
                 if matrix[r][c] == target:
